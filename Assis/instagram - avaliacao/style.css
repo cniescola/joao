@@ -1,0 +1,101 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+section #geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 350px;
+}
+
+section #geral #caixa1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10 0 10 0;
+    border: 1px solid rgb(200, 200, 200);
+    height: 390px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 1px;
+}
+
+section #geral #caixa1 #top{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    width: 100%;
+
+}
+
+section #geral #caixa1 #top #dados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+section #geral #caixa1 #top #dados .info{
+    display: flex;
+    height: 38px;
+}
+
+section #geral #caixa1 #top #dados .info input{
+    width: 268px;
+    margin-bottom: 6px;
+}
+
+section #geral #caixa1 #top #dados #entrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 32px;
+}
+
+section #geral #caixa1 #top #dados #entrar button{
+    margin: 40 8;
+}
+section #geral #caixa1 img{
+    width: 175px;
+    height: 51px;
+    margin: 36 0 12 0;
+}
+
+section #geral #caixa1 .info{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section #geral #caixa2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(200, 200, 200);
+    width: 100%;
+    height: 61px;
+    padding: 10 0 10 0;
+    margin-bottom: 95px;
+    border-radius: 1px;
+}
+
+section #geral #caixa2 p{
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+
+section #geral #caixa2 a{
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}

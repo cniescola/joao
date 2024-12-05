@@ -1,0 +1,182 @@
+section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f4f7;
+}
+
+section #esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: left;
+    justify-content: center;
+    margin-left: 14%;    
+}
+
+section #esquerda img{
+    height: 106px;
+    width: 321px;
+    margin: -28;
+
+}
+
+section #esquerda p{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    margin-bottom: 10vh;
+}
+
+section #direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-right: 10%;
+}
+
+section #direita #quad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 396px;
+    height: 340px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+} 
+
+section #direita #quad #forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+}
+
+section #direita #quad #forms .dado{
+    padding-top: 10px;
+}
+
+section #direita #quad #forms .dado input{
+    width: 364px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 14px 16px;
+}
+
+section #direita #quad #forms .dado input:focus{
+    outline: none;
+    border-color: #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #0866ff;
+}
+
+section #direita #quad #forms .dado input::-webkit-input-placeholder{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+section #direita #quad #forms #transferencia{
+    padding-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 364px;
+    height: 50px;
+}
+
+section #direita #quad #forms #transferencia input{
+    display: flex;
+    background-color: #0866ff;
+    text-align: center;
+    width: 364px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+section #direita #quad #forms #transferencia input:hover{
+    background-color: #1877f2;
+    cursor: pointer;
+}
+
+
+section #direita #quad #forms #esquecer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+section #direita #quad #forms #esquecer a{
+    margin: 0;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+section #direita #quad #forms #esquecer a:hover{
+    text-decoration: underline;
+}
+
+section #direita #quad #botao{
+    display: flex;
+    width: 166px;
+    height: 48px;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+section #direita #quad #botao:hover{
+    cursor: pointer;
+    background-color: #36a420;
+
+}
+
+section #direita #quad #botao a{
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;    
+    text-decoration: none;
+}
+
+section #direita #quad #botao a:hover{
+    text-decoration: underline;
+}
+
+section #direita #texto{
+    align-items: center;
+    margin-top: 28px;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+section #direita #texto p{
+    text-align: center
+}
+
+section #direita #texto a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #1c1e21;
+}
+
+section #direita #texto a:hover{
+    text-decoration: underline;
+}

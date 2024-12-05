@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav#navigation{
+    padding: 0 20px;
+}
+
+nav#navigation, #links{
+    width: 100vw;
+    height: 104px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.template{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+}
+
+.template p{
+    padding: 0;
+    margin: 0;
+    font-family: "El Messiri", sans-serif;
+    font-weight: 550;
+    font-size: 17px;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    flex-direction: row;
+}
+
+.template p:hover{
+    color: #CB997E;
+}
+
+.template:nth-child(1) p, .template:nth-child(1) p i{
+    color: #CB997E;
+}
+
+.template p i{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    color:black;
+    justify-content: center;
+    transform: rotateZ(0);
+    transition: 0.5s ease-in-out;
+}
+
+.template p:hover i{
+    transform: rotateZ(180deg);
+    color: #CB997E;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #d3d6cf;
+}
+
+#geral{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0 150;
+}
+
+#sec1 #geral h1{
+    font-family: "El Messiri", sans-serif;
+    color: #CB997E;
+    font-weight: 400;
+    font-size: 65px;
+    margin: 0 0 40px
+}
+
+#sec1 #geral p{
+    font-family: "El Messiri", sans-serif;
+    color: #212529;
+    margin: 0;
+    font-size: 20px;
+}
+
+#sec1 #geral input{
+    margin: 40px 0;
+    width: fit-content;
+    padding: 18 24;
+    background-color: #CB997E;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 550;
+    box-shadow: 0 0 10px 1px #6a6b69;
+    transition: 1s;
+}
+
+#sec1 #geral input:hover{
+    background-color: #eddcd2;
+}
+
+#sec2{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
