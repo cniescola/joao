@@ -31,6 +31,9 @@ header{
     width: 200px;
     height: 100%;
     background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 #abas{
@@ -44,17 +47,35 @@ header{
 }
 
 .opc{
-    width: 100px;
+    width: auto;
     height: 100%;
+    display: flex;
     background-color: bisque;
+    align-items: center;
+    justify-content: center;
+}
+
+.opc p{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: 17px;
 }
 
 #outros{
-    width: 150px;
+    width: auto;
     height: 100%;
     display:flex;
     flex-direction: row;
-    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+}
+
+#outros .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    z-index: 3;
 }
 
 main{
@@ -84,10 +105,18 @@ section{
 
 #butons input{
     margin: 10px;
-    padding: 10px;
+    padding: 30px;
     background-color: rgb(67, 42, 134);
     border: none;
     border-radius: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    box-shadow: 1px 1px 7px 0 rgb(81 81 81);
+}
+
+#butons :nth-child(1){
+    background-color: green;
 }
 
 #tela2{
@@ -113,6 +142,13 @@ section{
     margin: 30px;
 }
 
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .tit{
     display:flex;
     font-family: sans-serif;
@@ -126,6 +162,7 @@ section{
     font-family: sans-serif;
     font-size: 15px;
     margin: 20px;
+    color: rgb(92, 92, 92);
 }
 
 .subverde{
@@ -189,6 +226,7 @@ section{
     margin: 20px;
     align-items: center;
     justify-content:center;
+    margin-bottom: 150px;
 }
 
 .quadroslin{
@@ -203,8 +241,21 @@ section{
 .quadr{
     display: flex;
     flex-direction:column;
-    height: 200px;
-    width: 100px;
-    margin: 20px;
-    background-color: black;
+    height: 500px;
+    width: 340px;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadr div{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.quadr p{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 30px;
 }
